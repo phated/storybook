@@ -1,13 +1,7 @@
 import { document } from 'global';
-import {
-  Aurelia,
-  INode,
-  JitHtmlBrowserConfiguration,
-  DebugConfiguration,
-  CustomElement,
-  Constructable,
-  IViewModel,
-} from 'aurelia';
+import { Aurelia, CustomElement, Constructable, IViewModel } from 'aurelia';
+// This isn't exported via main aurelia package as of 0.8.0
+import { StandardConfiguration } from '@aurelia/runtime-html';
 import { RenderMainArgs } from './types';
 import { generateKnobsFor } from '.';
 
@@ -34,14 +28,14 @@ export default async function render({
   showMain();
 
   if (previousAurelia) {
-    await previousAurelia.stop().wait();
+    await previousAurelia.stop();
   }
 
   previousAurelia = new Aurelia(element.container);
   if (element.items && element.items.length > 0) {
     previousAurelia.register(...element.items);
   } else {
-    previousAurelia.register(JitHtmlBrowserConfiguration, DebugConfiguration);
+    previousAurelia.register(StandardConfiguration);
   }
 
   if (element.components && element.components.length > 0) {
@@ -67,7 +61,7 @@ export default async function render({
 
   const App = CustomElement.define({ name: 'app', template }, State as Constructable);
 
-  let app: IViewModel<INode>;
+  let app: IViewModel;
   if ((element.customElement || element.state) && !isConstructable) {
     app = Object.assign(new App(), element.state || State);
   }
@@ -77,6 +71,5 @@ export default async function render({
       host,
       component: app || App,
     })
-    .start()
-    .wait();
+    .start();
 }

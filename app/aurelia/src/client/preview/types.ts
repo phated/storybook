@@ -14,7 +14,7 @@ export interface RenderMainArgs {
 export interface StoryFnAureliaReturnType {
   customElement: Constructable;
   components: Component[] | unknown[];
-  template: unknown;
+  template: null | string | Node;
   items: IRegistry[];
   container: IContainer;
   state: any;
