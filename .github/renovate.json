@@ -19,10 +19,7 @@
   "enabledManagers": [
     "npm"
   ],
-  "rangeStrategy": "update-lockfile",
-  "minor": {
-    "rangeStrategy": "bump"
-  },
+  "rangeStrategy": "bump",
   "major": {
     "rangeStrategy": "replace"
   },
