@@ -444,6 +444,13 @@
     loader-utils "^1.2.3"
     webpack "^4.41.4"
 
+"@axe-core/puppeteer@^4.0.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@axe-core/puppeteer/-/puppeteer-4.1.0.tgz#201e656d757ee1a47ab6fb55a7db3076b344e735"
+  integrity sha512-zIxbZGNVXQpu0DuA0NLET4Nv23Ir6eecb/GJUWhuY1rWnVnUdHjI0y3Rh5nI2vfdjJ8glDh8G1MxtihVr1Ht2w==
+  dependencies:
+    axe-core "^4.1.1"
+
 "@babel/cli@^7.12.10":
   version "7.12.10"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.12.10.tgz#67a1015b1cd505bde1696196febf910c4c339a48"
@@ -6540,13 +6547,13 @@
     text-table "^0.2.0"
     webpack-log "^1.1.2"
 
-"@wordpress/jest-puppeteer-axe@^1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@wordpress/jest-puppeteer-axe/-/jest-puppeteer-axe-1.10.0.tgz#cf5b7802f97943eeaac89a9109c3815483454c92"
-  integrity sha512-gyzqqfALfvvXO2RxHtCK54cKZQAVVMrX9iZiLkQFvkrm49L31K3ZjGa4D0gcs0xVMWmL2pwlRn8z2NJTg8UXAA==
+"@wordpress/jest-puppeteer-axe@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@wordpress/jest-puppeteer-axe/-/jest-puppeteer-axe-2.0.0.tgz#4567d90150afbb443f5b9c6e6d030a391cd06bbc"
+  integrity sha512-w2KO6xHUGHFQe1PKtQ0RPwIcMgUJPpIPsHIo2bwXa6lTDYPPyJWubCJ8kETPjIxeEsW9sjClbvvzq3suuSVpgQ==
   dependencies:
-    "@babel/runtime" "^7.11.2"
-    axe-puppeteer "^1.1.0"
+    "@axe-core/puppeteer" "^4.0.0"
+    "@babel/runtime" "^7.12.5"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -7529,22 +7536,10 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axe-core@^3.5.3:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-3.5.5.tgz#84315073b53fa3c0c51676c588d59da09a192227"
-  integrity sha512-5P0QZ6J5xGikH780pghEdbEKijCTrruK9KxtPZCFWUpef0f6GipO+xEZ5GKCb020mmqgbiNO6TcA55CriL784Q==
-
 axe-core@^4.0.2, axe-core@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.1.1.tgz#70a7855888e287f7add66002211a423937063eaf"
   integrity sha512-5Kgy8Cz6LPC9DJcNb3yjAXTu3XihQgEdnIg50c//zOC/MyLP0Clg+Y8Sh9ZjjnvBrDZU4DgXS9C3T9r4/scGZQ==
-
-axe-puppeteer@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/axe-puppeteer/-/axe-puppeteer-1.1.1.tgz#e95f46e069d84d388cdc9fc0630cf2b2e78b1100"
-  integrity sha512-bU7dt3zlXrlTmaBsudeACEkQ0O4a5LNxRCdA1Qfph4mqx/DewybPCrlyDqJlHXb/W7ZSodE1fMmC+MgRLizxuQ==
-  dependencies:
-    axe-core "^3.5.3"
 
 axios@0.19.0:
   version "0.19.0"
