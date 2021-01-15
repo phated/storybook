@@ -54,7 +54,7 @@
     "ts-dedent": "^2.0.0"
   },
   "devDependencies": {
-    "preact": "^10.5.9"
+    "preact": "^10.5.10"
   },
   "peerDependencies": {
     "@babel/core": "*",

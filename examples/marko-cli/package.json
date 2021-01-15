@@ -19,7 +19,7 @@
     "test": "yarn lint"
   },
   "dependencies": {
-    "marko": "^4.23.11",
+    "marko": "^4.23.12",
     "marko-starter": "^2.1.0"
   },
   "devDependencies": {

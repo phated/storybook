@@ -50,7 +50,7 @@
     "global": "^4.4.0",
     "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
-    "qs": "^6.9.5",
+    "qs": "^6.9.6",
     "react-color": "^2.19.3",
     "react-lifecycles-compat": "^3.0.4",
     "react-select": "^3.2.0",
