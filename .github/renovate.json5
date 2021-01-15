@@ -4,8 +4,8 @@
     "config:base",
     "group:allNonMajor"
   ],
-  "prHourlyLimit": 1,
-  "prConcurrentLimit": 1,
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
   // Custom ignore paths to include our `examples/` directory
   "ignorePaths": [
     "**/node_modules/**",
