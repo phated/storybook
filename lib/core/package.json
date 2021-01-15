@@ -90,7 +90,7 @@
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
     "chalk": "^4.1.0",
     "cli-table3": "0.6.0",
-    "commander": "^6.2.1",
+    "commander": "^7.0.0",
     "core-js": "^3.8.2",
     "cpy": "^8.1.1",
     "css-loader": "^3.6.0",
