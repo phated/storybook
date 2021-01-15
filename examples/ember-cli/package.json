@@ -11,7 +11,7 @@
     "storybook:dev": "yarn dev & start-storybook -p 9009 -s ember-output"
   },
   "dependencies": {
-    "ember-named-blocks-polyfill": "^0.2.3",
+    "ember-named-blocks-polyfill": "^0.2.4",
     "ember-template-compiler": "^1.9.0-alpha"
   },
   "devDependencies": {
@@ -28,7 +28,7 @@
     "@storybook/addon-viewport": "6.2.0-alpha.15",
     "@storybook/addons": "6.2.0-alpha.15",
     "@storybook/ember": "6.2.0-alpha.15",
-    "@storybook/ember-cli-storybook": "^0.2.1",
+    "@storybook/ember-cli-storybook": "^0.3.0",
     "@storybook/source-loader": "6.2.0-alpha.15",
     "babel-loader": "^8",
     "broccoli-asset-rev": "^3.0.0",

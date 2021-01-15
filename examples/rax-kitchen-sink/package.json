@@ -18,7 +18,7 @@
     "rax-view": "^1.2.0"
   },
   "devDependencies": {
-    "@alib/build-scripts": "^0.1.8",
+    "@alib/build-scripts": "^0.1.30",
     "@babel/preset-react": "^7.12.10",
     "@storybook/addon-a11y": "6.2.0-alpha.15",
     "@storybook/addon-actions": "6.2.0-alpha.15",
@@ -36,7 +36,7 @@
     "@storybook/theming": "6.2.0-alpha.15",
     "babel-eslint": "^10.1.0",
     "build-plugin-rax-app": "^0.2.0",
-    "stylesheet-loader": "^0.8.0"
+    "stylesheet-loader": "^0.8.5"
   },
   "storybook": {
     "chromatic": {

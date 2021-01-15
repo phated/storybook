@@ -27,6 +27,6 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
     "pug": "^3.0.0",
-    "safe-identifier": "^0.4.1"
+    "safe-identifier": "^0.4.2"
   }
 }
