@@ -59,7 +59,7 @@
     "@types/lodash": "^4.14.167",
     "@types/semver": "^7.3.4",
     "flush-promises": "^1.0.2",
-    "qs": "^6.9.5"
+    "qs": "^6.9.6"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0",
