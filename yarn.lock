@@ -26624,12 +26624,12 @@ rax-create-factory@^1.0.0:
   resolved "https://registry.yarnpkg.com/rax-create-factory/-/rax-create-factory-1.0.0.tgz#95e8dada34327614355450d8abba80f68d0493b7"
   integrity sha512-blBaVrurj/BOWelJhQWiuc0Kk8Ons1jsNsX78omaPBLkSOL7OkyJ3NC/0iKXHu425yWrGB6e5vho/qabROC7VQ==
 
-rax-image@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/rax-image/-/rax-image-1.1.3.tgz#28bfd653c2ba53e60efe3a8d13f1cff035e12a09"
-  integrity sha512-/ZOyxHaEAjdVxTy/xlmpKMOkcASwuZ2tlrE6YBmpefZ6ZzszPSKc7hisOf5DyCPybff9XRXDjpM9h+bW79L2aQ==
+rax-image@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/rax-image/-/rax-image-2.2.4.tgz#b21b4c2b03e79f6e49f074a7921fbf7c281a795b"
+  integrity sha512-tRWp6z/hj2a56rLSyh6FThnAp7fu+tpoJrq7rrG0qgQRrmW92sVdJpIFQnxa3Epg9/Fpq8kIdGbgHJKomSMBlQ==
   dependencies:
-    universal-env "^1.0.0"
+    universal-env "^3.0.0"
 
 rax-is-valid-element@^1.0.0:
   version "1.0.0"
@@ -31974,11 +31974,6 @@ universal-analytics@0.4.23:
     debug "^4.1.1"
     request "^2.88.2"
     uuid "^3.0.0"
-
-universal-env@^1.0.0:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/universal-env/-/universal-env-1.0.7.tgz#31a1f9d3328677bd1fc016c141353ca35766a456"
-  integrity sha512-N7n9nZSpVSKwjPDO0QsN+3/5pPPum9u5i7Km3xxUi0ykA8UD9nKt8foMYdVFB8HIRXx/Sh7HVu3pC5CJX/t9Tw==
 
 universal-env@^2.0.0:
   version "2.0.0"
