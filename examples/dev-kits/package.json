@@ -30,7 +30,7 @@
     "global": "^4.4.0",
     "graphql": "^15.4.0",
     "jest-emotion": "^10.0.32",
-    "paths.macro": "^2.0.2",
+    "paths.macro": "^3.0.1",
     "prop-types": "^15.7.2",
     "react": "16.14.0",
     "react-dom": "16.14.0",
