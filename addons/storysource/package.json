@@ -52,7 +52,7 @@
     "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {
-    "@types/react": "^16.14.2",
+    "@types/react": "^17.0.0",
     "@types/react-syntax-highlighter": "^11.0.5"
   },
   "peerDependencies": {
