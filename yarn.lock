@@ -7754,13 +7754,6 @@ babel-loader@8.2.2, babel-loader@^8, babel-loader@^8.0.6, babel-loader@^8.1.0, b
     make-dir "^3.1.0"
     schema-utils "^2.6.5"
 
-babel-macros@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/babel-macros/-/babel-macros-1.2.0.tgz#39e47ed6d286d4a98f1948d8bab45dac17e4e2d4"
-  integrity sha512-/GIwkOeNHQU9R27Bkt0jHrJgaXBX5KLKrIH5h/iGebvKppvL9e4wKCgrl4qwUj0qssBHQFeSavk3lG2lQgdq8w==
-  dependencies:
-    cosmiconfig "3.1.0"
-
 babel-merge@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/babel-merge/-/babel-merge-3.0.0.tgz#9bd368d48116dab18b8f3e8022835479d80f3b50"
@@ -11293,16 +11286,6 @@ corser@^2.0.1, corser@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/corser/-/corser-2.0.1.tgz#8eda252ecaab5840dcd975ceb90d9370c819ff87"
   integrity sha1-jtolLsqrWEDc2XXOuQ2TcMgZ/4c=
-
-cosmiconfig@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-3.1.0.tgz#640a94bf9847f321800403cd273af60665c73397"
-  integrity sha512-zedsBhLSbPBms+kE7AH4vHg6JsKDz6epSv2/+5XHs8ILHlgDciSJfSWf8sX9aQ52Jb7KI7VswUTsLpR/G0cr2Q==
-  dependencies:
-    is-directory "^0.3.1"
-    js-yaml "^3.9.0"
-    parse-json "^3.0.0"
-    require-from-string "^2.0.1"
 
 cosmiconfig@^4.0.0:
   version "4.0.0"
@@ -24307,13 +24290,6 @@ parse-json@^2.2.0:
   dependencies:
     error-ex "^1.2.0"
 
-parse-json@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-3.0.0.tgz#fa6f47b18e23826ead32f263e744d0e1e847fb13"
-  integrity sha1-+m9HsY4jgm6tMvJj50TQ4ehH+xM=
-  dependencies:
-    error-ex "^1.3.1"
-
 parse-json@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-4.0.0.tgz#be35f5425be1f7f6c747184f98a788cb99477ee0"
@@ -24590,15 +24566,14 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-paths.macro@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/paths.macro/-/paths.macro-2.0.2.tgz#7b7b3930170c9d41f42ec426c987b2df3505fb72"
-  integrity sha512-zmr1/auphlWEnFCNl6Wy7rvbDI3odsyQ7/ZGHe2Q02W7gVRgXMwOQVDhdMpjCbxv9MSA7JiZdxKkc9uk0b6sOA==
+paths.macro@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/paths.macro/-/paths.macro-3.0.1.tgz#ee2532f345531177a6547e13c94196911d6471cd"
+  integrity sha512-jnrSe8j9WCZuvG+LRu8gFc+Zz3PskVOeM6WwXXocjz29L7SXETEAlamUvTDc39VGtHBQK6eBNhAkJ7ZuGpkpkQ==
   dependencies:
-    babel-macros "^1.2.0"
-    babel-plugin-macros "^2.0.0"
+    babel-plugin-macros "^2.8.0"
     find-root "^1.1.0"
-    upath "^1.0.2"
+    upath "^1.2.0"
 
 pause-stream@0.0.11:
   version "0.0.11"
@@ -32075,7 +32050,7 @@ untildify@^4.0.0:
   resolved "https://registry.yarnpkg.com/untildify/-/untildify-4.0.0.tgz#2bc947b953652487e4600949fb091e3ae8cd919b"
   integrity sha512-KK8xQ1mkzZeg9inewmFVDNkg3l5LUhoq9kN6iWYB/CC9YMG8HA+c1Q8HwDe6dEX7kErrEVNVBO3fWsVq5iDgtw==
 
-upath@^1.0.2, upath@^1.1.1, upath@^1.2.0:
+upath@^1.1.1, upath@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
   integrity sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg==
