@@ -76,7 +76,7 @@
     "@types/puppeteer-core": "^2.1.0",
     "@types/semver": "^7.3.4",
     "@types/shelljs": "^0.8.7",
-    "@types/update-notifier": "^0.0.30"
+    "@types/update-notifier": "^5.0.0"
   },
   "peerDependencies": {
     "jest": "*"
