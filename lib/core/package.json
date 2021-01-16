@@ -137,7 +137,7 @@
     "url-loader": "^4.1.1",
     "util-deprecate": "^1.0.2",
     "webpack": "^4.46.0",
-    "webpack-dev-middleware": "^3.7.3",
+    "webpack-dev-middleware": "^4.1.0",
     "webpack-filter-warnings-plugin": "^1.2.1",
     "webpack-hot-middleware": "^2.25.0",
     "webpack-virtual-modules": "^0.2.2"
@@ -153,7 +153,7 @@
     "@types/react-dev-utils": "^9.0.4",
     "@types/serve-favicon": "^2.5.2",
     "@types/terser-webpack-plugin": "^5.0.2",
-    "@types/webpack-dev-middleware": "^3.7.3",
+    "@types/webpack-dev-middleware": "^4.0.0",
     "@types/webpack-hot-middleware": "^2.25.3",
     "@types/webpack-virtual-modules": "^0.1.0",
     "mock-fs": "^4.13.0",
