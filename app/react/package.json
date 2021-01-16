@@ -63,7 +63,7 @@
     "read-pkg-up": "^7.0.1",
     "regenerator-runtime": "^0.13.7",
     "ts-dedent": "^2.0.0",
-    "webpack": "^4.46.0"
+    "webpack": "^5.15.0"
   },
   "devDependencies": {
     "@storybook/client-api": "6.2.0-alpha.15",
