@@ -56,7 +56,7 @@
     "ts-dedent": "^2.0.0"
   },
   "devDependencies": {
-    "mithril": "^1.1.7"
+    "mithril": "^2.0.4"
   },
   "peerDependencies": {
     "@babel/core": "*",
