@@ -44,7 +44,7 @@
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "read-pkg-up": "^7.0.1",
-    "ts-loader": "^6.2.2",
+    "ts-loader": "^8.0.14",
     "url-loader": "^4.1.1",
     "webpack": "^4.46.0"
   },
