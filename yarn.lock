@@ -26649,10 +26649,17 @@ rax-server-renderer@^1.0.0:
   resolved "https://registry.yarnpkg.com/rax-server-renderer/-/rax-server-renderer-1.2.1.tgz#e37ca691132c0316e29478d243c17a865ca4d49f"
   integrity sha512-iWwso70tSJ1Vwj1zIVdKrUw+lFE1PsxZ9fQG8uTlPo9kRueLvfisOiP2r7P8CDxnvw7g38iUz6ayPB1mBXJFJQ==
 
-rax-text@^1.3.1, rax-text@^1.4.0:
+rax-text@^1.3.1:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/rax-text/-/rax-text-1.4.0.tgz#a438ce0adc20a7bcad47ab7fdc6f91b188b5a686"
   integrity sha512-dWXfDNaBj5+ml2Ue/68jXWce7OYmA8ZbCi+GuN3bQgznsawtx9FkuyGuga9Xwz8uy7Z+A7MyRS1mxpf67nbiHA==
+  dependencies:
+    universal-env "^3.0.0"
+
+rax-text@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/rax-text/-/rax-text-2.0.4.tgz#59613884c5af8853cddfd8447c041abc85987360"
+  integrity sha512-Dz/AI9hQA2916H0BQl5OUYUe5gb3rWfPYiu8o9ll58RRZJ9gkwvpmmwHftsf6EcxWGIViUN5/DUs6JNOsbdu3A==
   dependencies:
     universal-env "^3.0.0"
 
