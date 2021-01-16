@@ -213,7 +213,7 @@
   "optionalDependencies": {
     "@cypress/webpack-preprocessor": "^5.5.0",
     "cypress": "4.12.1",
-    "puppeteer": "^2.1.1",
+    "puppeteer": "^5.5.0",
     "ts-loader": "^8.0.14",
     "verdaccio": "^4.10.0",
     "verdaccio-auth-memory": "^9.7.2"

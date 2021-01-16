@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@storybook/csf": "0.0.1",
-    "@types/puppeteer": "^2.1.5"
+    "@types/puppeteer": "^5.4.2"
   },
   "peerDependencies": {
     "@storybook/addon-storyshots": "6.2.0-alpha.15",
