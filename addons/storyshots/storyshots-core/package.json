@@ -64,7 +64,7 @@
     "babel-loader": "^8.2.2",
     "enzyme": "^3.11.0",
     "enzyme-to-json": "^3.6.1",
-    "jest-emotion": "^10.0.32",
+    "jest-emotion": "^11.0.0",
     "jest-preset-angular": "^8.3.2",
     "jest-vue-preprocessor": "^1.7.1",
     "rxjs": "^6.6.3"
