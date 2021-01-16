@@ -100,7 +100,7 @@
     "express": "^4.17.1",
     "file-loader": "^6.2.0",
     "file-system-cache": "^1.0.5",
-    "find-up": "^4.1.0",
+    "find-up": "^5.0.0",
     "fork-ts-checker-webpack-plugin": "^4.1.6",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
