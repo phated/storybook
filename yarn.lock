@@ -26656,10 +26656,10 @@ rax-text@^1.3.1, rax-text@^1.4.0:
   dependencies:
     universal-env "^3.0.0"
 
-rax-view@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/rax-view/-/rax-view-1.2.0.tgz#46146467429f72c8aafd6d874dbf95d7b32599cf"
-  integrity sha512-ZU6aOwqjGxWryzZMuy80cMwB/gR6LqxoXV7JHdVkdSsv61VZOh8IqEs77V/sRogEJ+Dn/wFcbeGLc3OD8ba0DA==
+rax-view@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/rax-view/-/rax-view-2.0.4.tgz#af7df44802bd01390b20da37b5cfc05876d3a4c8"
+  integrity sha512-SE8XpFmBj9HuML/3lLd/h9Hw9wpyD1bNhgODaj3JtcpZpx8TrU1NlWyZbeuj3W53utuoX8ZyUPlGy3ajyPF6ow==
   dependencies:
     classnames "^2.2.6"
     universal-env "^3.0.0"
