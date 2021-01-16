@@ -36,7 +36,7 @@
     "prepare": "node ../../scripts/prepare.js"
   },
   "dependencies": {
-    "@emotion/core": "^10.1.1",
+    "@emotion/core": "^11.0.0",
     "@storybook/addons": "6.2.0-alpha.15",
     "@storybook/api": "6.2.0-alpha.15",
     "@storybook/channels": "6.2.0-alpha.15",
@@ -51,7 +51,7 @@
     "core-js": "^3.8.2",
     "core-js-pure": "^3.8.2",
     "downshift": "^6.0.15",
-    "emotion-theming": "^10.0.27",
+    "emotion-theming": "^11.0.0",
     "fuse.js": "^3.6.1",
     "global": "^4.4.0",
     "lodash": "^4.17.20",
